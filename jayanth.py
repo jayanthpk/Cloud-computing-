@@ -15,4 +15,4 @@ reg.fit(X_train,y_train)
 result = reg.score(X_test, y_test)
 print("Accuracy - test set: %.2f%%" % (result*100.0))
 X_height=[[12.0]]
-print(reg.predict(X_test)
+print(reg.predict(X_test))
